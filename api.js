@@ -31,7 +31,7 @@ module.exports.extract = async function(filepath = '', mimeType = ''){
     ]
   }
 
-  const [result] = requestNeeded ? await client.batchAnnotateImages(request) : await client.documentTextDetection(fileBuffer)
+  const [result] = requestNeeded ? await client.batchAnnotateFiles(request) : await client.documentTextDetection(fileBuffer)
 
   const fullTextAnnotation = result.fullTextAnnotation || result.responses[0].responses[0].fullTextAnnotation
   return fullTextAnnotation.text
