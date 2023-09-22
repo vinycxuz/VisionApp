@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const googleOCR = require('./api')
 
 const multer = require('multer')
 const upload = multer({dest: './upload'})
@@ -10,8 +11,9 @@ app.get('/ocr', function (req, res) {
   res.render('index')
 })
 
-app.post('/ocr', upload.single('file'), function(req, res) {
-  res.json({message:"successfully"})
+app.post('/ocr', upload.single('file'), async function(req, res) {
+  const response = await googleOCR.extract(req.file.path, req.file.mimetype)
+  res.json({response})
 })
 
 app.listen(3000, function() {
