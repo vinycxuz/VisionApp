@@ -25,7 +25,7 @@ git clone https://github.com/vinycxuz/VisionApp
 2. Instale as dependências do projeto:
 
 ```bash
-cd ocr-google-api-nodejs
+cd visionapp
 npm install
 ```
 
