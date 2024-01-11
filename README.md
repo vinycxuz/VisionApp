@@ -43,7 +43,7 @@ Para usar o programa, siga estas etapas:
 node index
 ```
 
-2. Abra o navegador e acesse `http://localhost:3000`.
+2. Abra o navegador e acesse `http://localhost:3000/ocr`.
 
 3. No site, clique no botão para fazer upload do arquivo que você deseja analisar.
 
