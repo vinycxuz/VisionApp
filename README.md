@@ -45,7 +45,7 @@ node index
 
 2. Abra o navegador e acesse `http://localhost:3000/ocr`.
 
-3. No site, clique no botão para fazer upload do arquivo que você deseja analisar.
+3. No site, clique no botão 'Escolher arquivo' para fazer upload do arquivo para o site e depois 'upload' para enviar a requisição do arquivo que você deseja analisar.
 
 4. O programa enviará a imagem do documento para a API de OCR do Google e exibirá o texto transcriado no navegador.
 
