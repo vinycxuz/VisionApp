@@ -49,11 +49,7 @@ node index
 
 4. O programa enviará a imagem do documento para a API de OCR do Google e exibirá o texto transcriado no navegador.
 
-## Updates
-
-Próxima atualização será implementado o front para melhor interação do usuário e opção de copiar todo o texto.
-
 ## Contribuições
 
-Se você deseja contribuir para o desenvolvimento deste programa, sinta-se à vontade!
+Se você deseja contribuir para o desenvolvimento deste programa, principalmente no front-end, sinta-se à vontade!
 
