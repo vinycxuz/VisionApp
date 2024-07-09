@@ -26,7 +26,7 @@ git clone https://github.com/vinycxuz/VisionApp
 
 ```bash
 cd visionapp
-npm install
+npm install google-cloud/vision ejs express multer
 ```
 
 3. Configure a chave de API da Cloud Vision API:
