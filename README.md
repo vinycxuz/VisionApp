@@ -55,5 +55,5 @@ Próxima atualização será implementado o front para melhor interação do usu
 
 ## Contribuições
 
-Se você deseja contribuir para o desenvolvimento deste programa, sinta-se à vontade para abrir problemas ou enviar solicitações de pull request no repositório do GitHub: [vinycxuz/VisionApp](https://github.com/vinycxuz/VisionApp)
+Se você deseja contribuir para o desenvolvimento deste programa, sinta-se à vontade!
 
